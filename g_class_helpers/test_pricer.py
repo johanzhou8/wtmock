@@ -1,5 +1,5 @@
 from unittest import TestCase, mock, expectedFailure
-from pricer import CountryPricer
+from g_class_helpers.pricer import CountryPricer
 
 
 class TestCountryPrices(TestCase):

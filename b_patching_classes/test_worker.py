@@ -1,6 +1,6 @@
 from unittest import TestCase, mock
 
-from worker import Worker, Helper
+from b_patching_classes.worker import Worker, Helper
 
 
 class TestWorker(TestCase):

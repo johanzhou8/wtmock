@@ -1,6 +1,6 @@
 from unittest import TestCase, mock, expectedFailure
 
-from worker import Worker, Helper
+from c_speccing.worker import Worker, Helper
 
 
 class TestWorker(TestCase):

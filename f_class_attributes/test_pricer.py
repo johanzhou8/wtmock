@@ -1,6 +1,6 @@
 from unittest import TestCase, mock, expectedFailure
 
-from pricer import Pricer
+from f_class_attributes.pricer import Pricer
 
 
 class TestClassAttribute(TestCase):

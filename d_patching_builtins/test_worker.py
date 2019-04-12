@@ -1,6 +1,6 @@
 from unittest import TestCase, mock
 
-from worker import work_on_env
+from d_patching_builtins.worker import work_on_env
 
 class TestBuiltin(TestCase):
 

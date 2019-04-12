@@ -1,6 +1,6 @@
 from unittest import TestCase, mock
 
-from work import work_on
+from a_patch_on_import.work import work_on
 
 
 class TestWorkMockingModule(TestCase):

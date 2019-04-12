@@ -1,7 +1,7 @@
 from io import StringIO
 from unittest import TestCase, mock
 
-from worker import size_of
+from e_context_managers.worker import size_of
 
 class TestContextManager(TestCase):
 

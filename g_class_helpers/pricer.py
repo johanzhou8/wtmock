@@ -1,4 +1,4 @@
-from helper import Field
+from g_class_helpers.helper import Field
 
 COUNTRIES = ('US', 'CN', 'JP', 'DE', 'ES', 'FR', 'NL')
 
