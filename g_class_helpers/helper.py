@@ -1,3 +1,4 @@
+print('haha')
 class Field:
     def __init__(self, type_, default, value=None):
         self.type_ = type_

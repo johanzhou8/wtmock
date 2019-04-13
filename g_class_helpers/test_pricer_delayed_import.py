@@ -3,6 +3,7 @@ from unittest import TestCase, mock, expectedFailure
 
 class TestCountryPrices(TestCase):
 
+    @expectedFailure
     def test_delayed_import(self):
         with mock.patch('pricer.COUNTRIES', ['GB']):
             from g_class_helpers.pricer import CountryPricer

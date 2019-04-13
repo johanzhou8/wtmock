@@ -11,7 +11,7 @@ class TestCountryPrices(TestCase):
             self.assertAlmostEqual(pricer.get_discounted_price(100, 'GB'), 80)
 
     def test_patch_class_helper(self):
-        with mock.patch('pricer.CountryPricer.country.default', 'GB'):
+        with mock.patch('g_class_helpers.pricer.CountryPricer.country.default', 'GB'):
             pricer = CountryPricer()
             self.assertAlmostEqual(pricer.get_discounted_price(100, 'GB'), 80)
 
